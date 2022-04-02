@@ -1,0 +1,9 @@
+Datenmengen komprimieren mit #Blockchain
+Ende 2020, das lokale #NAS nervt schon wieder, weil der Speicherplatz zur Neige geht. Shit! 
+Der #Raid Verbund ist schon fast ein Jahr deaktiviert und Komprimierung mit #zlib, #zip oder #xz ist auch keine Alternative mehr.
+Ein neuer #Netzwerkspeicher muss her, der letzte Netzwerkspeicher!
+
+Elf Monate später, ein gutes Duzend an #PoC, der #beN Algorithmus ist erkennbar. Ein modifizierter Blockchain-Algorithmus, #Micro-Blockchain, nicht darauf ausgelegt #Bitcoin oder #Cryptowährungen zu schürfen sondern Daten zu #komprimieren. Kein Algorithmus für #Single-Core oder #Multi-Core Rechner, #Many-Core fähig, #GPU lässt grüßen!
+
+Technische Details:
+Der #beN Algorithmus ermöglicht #rekursiv eine nahezu unbegrenzte #Komprimierung beliebiger Datenströme. Aufsetzend auf etablierte Technologien wie modifiziertem #Blockchain, #Sortieralgorithmen und Berechnung von #Hashkollisionen wird #verlustbehaftet zu #verlustfreie Kompression. Die #GPGPU Entwicklungen und parallele Ausführung von Hunderten und Tausenden Berechnungen erlauben einen Algorithmus der vor wenigen Jahren eine nicht akzeptable Zeit benötigt hätte. Als rekursiver Algorithmus ist #beN zudem #Streaming fähig und ermöglicht selbst bei hochverdichteten Daten mit eine Datenstrom vom beginn her zu komprimieren und dekomprimieren ohne die gesamten Daten zu kennen. Auch Tabellen wie bei #Huffman basierten Komprimierungen werden nicht benötigt.
