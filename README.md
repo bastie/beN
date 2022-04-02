@@ -26,7 +26,24 @@ The target is a file type independent **1%** recursive compression rate. What di
 
 ### Theoretical compression rate of ``Kurt Nerger``
 
-``Kurt Nerger`` has the maximum compression rate 78/80 equals 2.5% plus header size with 78 bytes (see fileformat).
+``Kurt Nerger`` has the maximum compression rate 78/80 equals 2.5% plus header size with 78 bytes (see fileformat). For 1 MB see table:
+
+
+| recursive round | input size | output size | percent from first input |
+| --------------- | ---------- | ----------- | --------------------- |
+| 1 | 1073741824 | 1046898280 | 97.50 % |
+| 2 | 1046898280 | 1020725824 | 95.06 % |
+| 3 | 1020725824 |  995207680 | 92.69 % |
+| 4 |  995207680 |  970327488 | 90.37 % |
+| 5 |  970327488 |  946069302 | 88.11 % |
+
+**Calculation**
+
+1. Input 1073741824 bytes modulo 80 equals 64 bytes
+2. Input Micro-Blockchains (1073741824-64) / 80 bytes = 13421772 Micro-Blockchain
+3. Output Micro-Blockchains 13421772 * 78 bytes = 1046898216 bytes
+4. Output 1046898216 bytes + 64 bytes = 1046898280 bytes without header
+5. *If only one round add header size: 78 bytes + 1046898280 bytes = 1046898358 bytes*
 
 ## Changelog
 
