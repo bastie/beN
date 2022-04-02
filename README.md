@@ -16,7 +16,17 @@ Eleven months later, a good dozen of proof of concepts, the beN algorithm is nea
 
 > Note: a correct and specific designation of the algorithm is always fileformat algorithm like ``Kurt Nerger``
 
-Read more in doc directory.
+## Target compression rate 1% recursive
+
+The target is a file type independent **1%** recursive compression rate. What did it mean, and what is the consequence?
+
+- The consequense you have to understand is that the best compression is a combination of an established algorithm with beNerger.
+- Also you can using beN with anything. Plain text, image, binary, music, database files - it doesnt matter.
+- Important beNerger is recursive. Test with your favorite compression tool. At one point it cannot compress data in second or maybe third run to smaller output. Unlike beNerger.
+
+### Theoretical compression rate of ``Kurt Nerger``
+
+``Kurt Nerger`` has the maximum compression rate 78/80 equals 2.5% plus header size with 78 bytes (see fileformat).
 
 ## Changelog
 
