@@ -14,7 +14,7 @@ Eleven months later, a good dozen of proof of concepts, the beN algorithm is nea
 ## Technical overview
 *beN* enables recursively an almost unlimited compression of any data stream. Based on established technologies such as modified blockchain, sorting and hash collisions calculation, lossy becomes lossless compression. The GPGPU and the parallel execution of hundreds and thousands of calculations allow an algorithm that would have taken an unacceptable amount of time just a few years ago. As a recursive algorithm, beN is also capable of streaming and allows you to compress and decompress a data stream from the beginning, even with highly compressed data, without knowing the entire data. Also tables as with [Huffman](https://en.wikipedia.org/wiki/Huffman_coding) based compressions are not needed.
 
-> Note: a correct and specific designation of the algorithm is always file format algorithm like ``Kurt Nerger``
+> Note: a correct and specific designation of the algorithm is always fileformat algorithm like ``Kurt Nerger``
 
 Read more in doc directory.
 
