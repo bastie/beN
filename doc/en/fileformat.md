@@ -13,6 +13,6 @@ All data decoded in **little-endian**.
 |  9 |  69  | reserved | filler |
 | 78 | EOF | data | 1..n Micro-Blockchains
 
-*Every Micro-Blockchain contains min 78 bytes. The file header Der Dateiheader is aligned on this size.*
+*Every Micro-Blockchain contains min 78 bytes. The data header is aligned on this size.*
 
 ###### EOF
