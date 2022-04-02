@@ -9,10 +9,10 @@ Alle Daten werden **little-endian** kodiert.
 |--------|-------|--------------|-----------|
 |  0 |   4  | Magic Bytes| Erkennung des Dateityps beN über den Inhalt, immer hex:``4B 75 72 74`` |
 |  4 |   1  | reserviert | Untertyp, zulässige Werte hex:``20`` |
-|  5 |   8  | Länge der dekomprimierten Datei | **optional** 64 Bit Integer |
+|  5 |   8  | Länge der dekomprimierten Daten | **optional** 64 Bit Integer |
 |  9 |  69  | reserviert | filler |
 | 78 | EOF | Daten | 1..n Micro-Blockchains
 
-*Jeder Micro-Blockchain ist mindestens 78 Bytes lang. Der Dateiheader ist an dieser optimalen Größe ausgerichtet.*
+*Jeder Micro-Blockchain ist mindestens 78 Bytes lang. Der Datenkopf ist an dieser optimalen Größe ausgerichtet.*
 
 ###### EOF
