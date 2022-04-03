@@ -39,8 +39,10 @@ The target is a file type independent **1%** recursive compression rate. What di
 
 **Calculation**
 
+*The size of an uncompressed Micro-Blockchain is 80 bytes.*
+
 1. Input 1073741824 bytes modulo 80 equals 64 bytes
-2. Input Micro-Blockchains (1073741824-64) / 80 bytes = 13421772 Micro-Blockchain
+2. Input (1073741824 bytes - 64 bytes) / 80 bytes = 13421772 Micro-Blockchain
 3. Output Micro-Blockchains 13421772 * 78 bytes = 1046898216 bytes
 4. Output 1046898216 bytes + 64 bytes = 1046898280 bytes without header
 5. *If only one round add header size: 78 bytes + 1046898280 bytes = 1046898358 bytes*
