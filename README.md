@@ -36,6 +36,7 @@ The target is a file type independent **1%** recursive compression rate. What di
 | 3 | 1020725824 |  995207680 | 92.69 % |
 | 4 |  995207680 |  970327488 | 90.37 % |
 | 5 |  970327488 |  946069302 | 88.11 % |
+| 6 |  946069302 |  922417570 | 85.91 % |
 
 **Calculation**
 
