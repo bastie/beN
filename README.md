@@ -66,3 +66,5 @@ The target is a file type independent **1%** recursive compression rate. What di
    * Part 1 of public review started with post on [LinkedIn](https://www.linkedin.com/embed/feed/update/urn:li:share:6915703205381160961) and to [Hutter Prize discussion group](https://groups.google.com/g/hutter-prize)
  * 2022-04-02
    * Extended Part 1 posted on [Github](https://github.com/bastie/beN)
+ * 2022-04-05
+   * Part 1.5 of brain teaser for hashing posted on [LinkedIn](https://www.linkedin.com/posts/sebastian-ritter-530363148_komprimierung-freebsd-hashkollisionen-activity-6916963188227874816-Hqe4/?utm_source=linkedin_share&utm_medium=member_desktop_web)
