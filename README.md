@@ -26,7 +26,7 @@ The target is a file type independent **1%** recursive compression rate. What di
 
 ### Theoretical compression rate of ``Kurt Nerger``
 
-``Kurt Nerger`` has the maximum compression rate 78/80 equals 2.5% plus header size with 78 bytes (see fileformat). For 1 MB see table:
+``Kurt Nerger`` has the maximum compression rate 78/80 equals 2.5% plus header size with 78 bytes (see fileformat). For 1 MB look at table:
 
 
 | recursive round | input size | output size | percent from first input |
