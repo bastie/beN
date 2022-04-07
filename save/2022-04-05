@@ -1,0 +1,7 @@
+#Komprimierung extrem
+In Fortsetzung des Beitrags vom 1. April ein kleiner Gedankenanstoß für ITler und Mathematiker. Eine der effektivsten Komprimierungen für #FreeBSD-13.0-RELEASE-amd64-dvd1.iso um die 4.784.017.408 Bytes zu minimieren sind die folgenden 400 Bytes:
+
+4784017408-aca07085198d7b500011c31ecc777c962ce905213cb75bf1d38c74e859f0d7a4a141c08afcc0febce6f12285b12a92d9318059fd6f8ca2d6f122429f45a7deea-3203f6c6177e10ff695ee4be22ef8ed36b82a1cf0b47fb3222e9c1190b2ebb8015b70c4ae72725080015f6b274ce559e-d3df1818c0b90ae8d4c88c447dd158c3c3a3ddada4171ac7b0fe55baa040c821-7d0a6ec9f871237323109e55333846d626038de1267632138e0683b6-5f69858133651a142f41245dbc2c7934414846d3
+
+Alles andere ist eine Frage der effizienten Berechnung von #Hashkollisionen. Mit der Familie der #beNerger Algorithmen wird dieses Problem adressiert, nicht für den #SHA Hash aber dazu später.
+Das mag mit #Quantencomputern auch gehen nur habe ich noch keinen dieser Rechner zu Hause.
