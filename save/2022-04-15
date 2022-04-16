@@ -1,0 +1,10 @@
+#Hashkollisionen minimieren mit #Blockchain 
+
+Was macht man am 1. April? Aprilscherz, Ernst bleiben, einfach beginnen den #beNerger Algorithmus zu beschreiben oder ist das eine wie das andere? 
+
+Letzte Woche mit den #Microblockchain wurde auch Thema #Hash aufgebracht. Hash als #Einwegfunktionen sollen #Blockchain dergestalt absichern, dass es möglichst schwer ist die zugrunde liegendenden Daten zu manipulieren. Ein Hash kann dabei selbst für grosse Daten erstaunlich schnell berechnet werden und ist im Vergleich zu den zugrunde liegenden Daten erstaunlich klein. Letztlich also auch nur eine komplexe #Prüfsumme. Dabei werden die Hashalgorithmen immer komplexer sollen sie doch den Weiterentwicklungen der Rechnergeschwindigkeiten standhalten und recht neu auch einem #Quantencomputer standhalten. Andere Möglichkeiten scheinen aus dem Fokus gerückt zu sein.
+Zurück zur Blockchain; die Berechnung von #Hashkollisionen wird nicht nur in Zusammenhang mit der #Fälschung der zugrunde liegenden Daten verwendeten sondern auch bei #Kryptowährungen. Das Ziel einen Hash mit gewissen Eigenschaften zu generieren (Nullen) ist auch nur eine Hashkollisionsberechnung.
+
+Ein guter Hashalgorithmus soll bei einer geringen Änderung der zugrunde liegenden Daten einen möglichst starken abweichenden Hash erzeugen. Die Verknüpfung von den einzelnen Blöcken in der Blockchain führt dazu, dass mit steigender Anzahl der Blöcke auch die Fälschungssicherheit für einen einzelnen Block steigt. Die Anzahl der neu zu berechnenen Hashkollisionen steigt. Die gilt auch trotz der schnellen Berechnungsmöglichkeit moderner Rechner für Hashes z.B. mittels #GPGPU.
+
+#beNerger hingegen nutzt eine Algorithmus im Sinne einer modifizierten #Microblockchain und dies gilt auch für den genutzten Hash. Abweichend zum Mainstream sind kurze und schnelle Hashes wie #PearsonHash zum Einsatz und kurze Blockchains sorgen für (im Verhältnis) effiziente Berechnung von Hashkollisionen. Abweichend wird zudem nicht versucht die Hashkollisionsberechnung zu erschweren sondern die Anzahl der möglichen Kollisionen verringern. Und dann bedarf es noch ein bisschen Magie…
