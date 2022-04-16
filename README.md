@@ -68,3 +68,6 @@ The target is a file type independent **1%** recursive compression rate. What di
    * Extended Part 1 posted on [Github](https://github.com/bastie/beN)
  * 2022-04-05
    * Part 1.5 of brain teaser for hashing posted on [LinkedIn](https://www.linkedin.com/posts/sebastian-ritter-530363148_komprimierung-freebsd-hashkollisionen-activity-6916963188227874816-Hqe4/?utm_source=linkedin_share&utm_medium=member_desktop_web)
+ * 2022-04-16
+   * add some more informations over microblockchains and hash collisions
+   * add simple PearsonHash implementation 
