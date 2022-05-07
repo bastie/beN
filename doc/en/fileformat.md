@@ -12,7 +12,7 @@ All data decoded in **little-endian**.
 |  0 |   4 | magic bytes| detection [file](http://www.darwinsys.com/file/) type with this bytes, always hex:``4B 75 72 74`` |
 |  4 |   1 | reserved | subtyp, allowed values are hex: ``20`` |
 |  5 |   4 | rounds | counts of recursive loop as 32 bit integer |
-|  9 |  17 | size of decompressed data | **optional** 64 bit integer |
+|  9 |  17 | size of decompressed data | unsigned 64 bit integer |
 | 17 |  60 | reserved | filler |
 | 77 |   1 | skip count | unsigned 8 bit integer |
 | 78 | EOF | data | 1..n Micro-Blockchains |
