@@ -20,15 +20,21 @@ All data decoded in **little-endian**.
 *Every Micro-Blockchain contains min 78 bytes. The data header is aligned on this size.*
 
 ### micro blockchain (compressed)
-| Offset | Position | Description | Notes |
-|--------|-------|--------------|-----------|
+| Offset | Length | Description | Notes |
+|--------|--------|-------------|-----------|
 |  0 |   5 | repair informations | it's magic |
-|  5 |  13 | block 0 | undestroyed |
-| 14 |   6 | block 1 | destroyed |
+|  5 |   8 | block 0 | unchanged |
+| 14 |   6 | block 1 | changed |
 | 20 |   1 | more magic | ... |
 | … | … | … | … |
-| 69 |   8 | block 9 | undestroyed |
+| 69 |   8 | block 9 | unchanged |
 | 77 |   1 | skip count | unsigned 8 bit integer |
+
+### micro blockchain (unchanged)
+| Offset | Length | Description | Notes |
+|--------|--------|-------------|-----------|
+|  0 |   80 | BLOB | are 80 bytes large? |
+
 
 
 ###### EOF
