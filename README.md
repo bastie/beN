@@ -71,3 +71,9 @@ The target is a file type independent **1%** recursive compression rate. What di
  * 2022-04-16
    * add some more informations over microblockchains and hash collisions
    * add simple PearsonHash implementation 
+ * 2022-05-05
+   * Prerelease with compression but needing manually cli input
+ * 2022-??-??
+   * beNerger -c <file> creates self <file>.beN output, filename test.beN removed 
+   * beNerger -c save uncompressed file size as UInt64
+   * beNerger -c save correct skip value in header
