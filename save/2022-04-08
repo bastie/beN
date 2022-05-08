@@ -1,0 +1,16 @@
+#Blockchain Anwendung für Dich und Mich
+Was war deine verrückteste Erfahrung mit der deutschen #Bahn und was hast du das letzte mal in der Bahn gemacht? Für mich war es  2018, dass unser Zug den Bahnhof Richtung #Hannover nicht verlassen durfte, weil jemand mit einem selbstgebauten Schienenfahrzeug vor uns auf der Strecke sei. Und letzten Freitag am 1. April 2022 habe ich erst ein Kapitel vom #Tripwire gelesen und dann ein paar Sätze zun #beN geschrieben. Und Du hast diese natürlich gelesen 😉. Was war also deine Lieblingsdurchsage im #ÖPNV?
+
+beN oder auch #beNerger ist eine Art #Blockchain Anwendung jenseits von #Kryptowährungen oder #smartcontract Implementierungen, ein Packer oder auch Kompressionsprogramm. Bewusst oder unbewusst hat jeder von uns schon Daten komprimiert und daher ist #beNerger eine Blockchain für Jedermann mit seinen #Microblockchain. 
+Blockchain-Anwendungen reihen eine Menge von Datenstücken (Blocks) und verknüpfen diese miteinander (Chain). Damit diese nun nicht geändert werden (können) wird für jeden Block eine Prüfzahl berechnet (Hash). Dieser #Hash wird vor vor allem jedoch Teil des nächsten Blocks insb. für dessen #Hashberechnung. Und das ist auch schon die ganze Magie hinter der Technik.
+Unnötig zu erwähnen das damit die Datenmenge also ansteigt, da zu jedem Block noch der #Hashwert hinzukommt. beNerger Algorithmen modifizieren daher ursprünglich (vereinfacht hier dargestellten) Blockchain Ansatz sowohl was den Block angeht als auch was den Hash betrifft. Abweichend wird jedoch nicht der Hash sondern ein Teil des Blocks für die Hashberechnung des Folgeblocks genutzt. 
+
+Blockchain Original: Hash_before+Full_Block_current->Hash_current
+Blockchain beN: Part_Block_before+Full_Block_current->Hash_current
+
+Ganz im Sinne des Dinosauriers #COBOL betrachtet der #KurtNerger Algorithmus hier Daten nicht nur als Datenstrom sondern #redefines diese als Blockchain mit 10 Blöcken (8+10+10+10+10+10+10+10+10+10). 
+Auch mit dem beNerger Algorithmus werden also mehr Daten mit dem aktuellen Hash erzeugt. Wie wir diese verschwinden lassen?  It‘s magic! Hast du den Beitrag Komprimierung extrem vom 5. April 2022 wahrgenommen?
+
+
+Technische Details:
+Der #beN Algorithmus ermöglicht #rekursiv eine nahezu unbegrenzte #Komprimierung beliebiger Datenströme. Aufsetzend auf etablierte Technologien wie modifiziertem #Blockchain, #Sortieralgorithmen und Berechnung von #Hashkollisionen wird #verlustbehaftet zu #verlustfreie Kompression. Die #GPGPU Entwicklungen und parallele Ausführung von Hunderten und Tausenden Berechnungen erlauben einen Algorithmus der vor wenigen Jahren eine nicht akzeptable Zeit benötigt hätte. Als rekursiver Algorithmus ist #beN zudem #Streaming fähig und ermöglicht selbst bei hochverdichteten Daten mit eine Datenstrom vom beginn her zu komprimieren und dekomprimieren ohne die gesamten Daten zu kennen. Auch Tabellen wie bei #Huffman basierten Komprimierungen werden nicht benötigt.
