@@ -18,5 +18,21 @@ Alle Daten werden **little-endian** kodiert.
 *Jeder Micro-Blockchain ist mindestens 78 Bytes lang. Der Datenkopf ist an dieser optimalen Größe ausgerichtet.*
 
 
+### Micro-Blockchain (komprimiert)
+| Offset | Länge | Description | Notes |
+|--------|-------|--------------|-----------|
+|  0 |   5 | Reparaturinformationen | it's magic |
+|  5 |   8 | Block 0 | unverändert |
+| 14 |   6 | Block 1 | verändert |
+| 20 |   1 | more magic | ... |
+| … | … | … | … |
+| 69 |   8 | Block 9 | unverändert |
+| 77 |   1 | Sprung-Wert | vorzeichenloser 8 bit Integer |
+
+### Micro-Blockchain (unverändert)
+| Offset | Länge | Description | Notes |
+|--------|-------|--------------|-----------|
+|  0 |   80 | BLOB | large ist etwas übertrieben |
+
 
 ###### EOF
