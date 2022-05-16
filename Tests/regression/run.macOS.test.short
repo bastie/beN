@@ -1,0 +1,23 @@
+#!/bin/zsh 
+
+rm -f test.output.short.beN
+rm -f test.input.short.beN
+rm -f test.output.short
+
+swift build -c release
+
+../../.build/x86_64-apple-macosx/release/beN -c test.input.short
+mv test.input.short.beN test.output.short.beN
+../../.build/x86_64-apple-macosx/release/beN -d test.output.short.beN
+
+echo " "
+echo "Result $0                    _________"
+diff -s test.input.short test.output.short
+echo "                                                 ^^^^^^^^^"
+echo " "
+
+rm -f test.output.short.beN
+rm -f test.input.short.beN
+rm -f test.output.short
+
+#EOF
